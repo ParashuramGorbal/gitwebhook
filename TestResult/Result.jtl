@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1705681669014,1067,-47,200,OK,Thread Group 1-1,text,true,,2320,445,1,1,https://blazedemo.com/,1065,0,539
+1705681668627,1067,Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2320,445,1,1,null,1065,389,539
+1705681670388,500,-62,200,OK,Thread Group 1-1,text,true,,2390,638,1,1,https://blazedemo.com/reserve.php,499,0,0
+1705681670083,500,Reserve,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2390,638,1,1,null,499,305,0
+1705681671202,507,-67,200,OK,Thread Group 1-1,text,true,,2491,696,1,1,https://blazedemo.com/purchase.php,507,0,0
+1705681670889,507,Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2491,696,1,1,null,507,314,0
+1705681672018,508,-70,200,OK,Thread Group 1-1,text,true,,2348,747,1,1,https://blazedemo.com/confirmation.php,508,0,0
+1705681671710,508,ConfirmFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2348,747,1,1,null,508,309,0
+1705681673932,743,-47,200,OK,Thread Group 1-2,text,true,,2296,445,1,1,https://blazedemo.com/,743,0,130
+1705681673616,743,Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2296,445,1,1,null,743,317,130
+1705681674986,509,-62,200,OK,Thread Group 1-2,text,true,,2427,624,1,1,https://blazedemo.com/reserve.php,508,0,0
+1705681674676,509,Reserve,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2427,624,1,1,null,508,310,0
+1705681675806,611,-67,200,OK,Thread Group 1-2,text,true,,2627,684,1,1,https://blazedemo.com/purchase.php,610,0,0
+1705681675495,611,Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2627,684,1,1,null,610,312,0
+1705681676719,617,-70,200,OK,Thread Group 1-2,text,true,,2304,747,1,1,https://blazedemo.com/confirmation.php,616,0,0
+1705681676418,617,ConfirmFlight,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2304,747,1,1,null,616,301,0

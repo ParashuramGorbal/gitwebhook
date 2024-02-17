@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1242" it="0" lt="1240" ct="781" ts="1705682928069" s="true" lb="-47" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2196" sby="445" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/</java.net.URL>
+</httpSample>
+<sample t="1242" it="10435" lt="1240" ct="781" ts="1705682917657" s="true" lb="Launch" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="2196" sby="445" ng="2" na="2"/>
+<httpSample t="531" it="0" lt="529" ct="121" ts="1705682932930" s="true" lb="-47" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="2202" sby="445" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/</java.net.URL>
+</httpSample>
+<sample t="531" it="10307" lt="529" ct="121" ts="1705682922627" s="true" lb="Launch" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="2202" sby="445" ng="2" na="2"/>
+<httpSample t="414" it="0" lt="411" ct="0" ts="1705682939645" s="true" lb="-62" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2448" sby="638" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/reserve.php</java.net.URL>
+</httpSample>
+<sample t="414" it="10314" lt="411" ct="0" ts="1705682929335" s="true" lb="Reserve" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="2448" sby="638" ng="2" na="2"/>
+<httpSample t="441" it="0" lt="438" ct="0" ts="1705682943770" s="true" lb="-62" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="2367" sby="624" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/reserve.php</java.net.URL>
+</httpSample>
+<sample t="441" it="10306" lt="438" ct="0" ts="1705682933466" s="true" lb="Reserve" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="2367" sby="624" ng="2" na="2"/>
+<httpSample t="414" it="0" lt="412" ct="0" ts="1705682950366" s="true" lb="-67" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2500" sby="696" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/purchase.php</java.net.URL>
+</httpSample>
+<sample t="414" it="10304" lt="412" ct="0" ts="1705682940065" s="true" lb="Purchase" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="2500" sby="696" ng="2" na="2"/>
+<httpSample t="471" it="0" lt="469" ct="0" ts="1705682954515" s="true" lb="-67" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="2636" sby="684" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/purchase.php</java.net.URL>
+</httpSample>
+<sample t="471" it="10303" lt="469" ct="0" ts="1705682944213" s="true" lb="Purchase" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="2636" sby="684" ng="2" na="2"/>
+<httpSample t="465" it="0" lt="461" ct="0" ts="1705682961088" s="true" lb="-70" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2356" sby="747" ng="2" na="2">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/confirmation.php</java.net.URL>
+</httpSample>
+<sample t="465" it="10307" lt="461" ct="0" ts="1705682950783" s="true" lb="ConfirmFlight" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="2356" sby="747" ng="2" na="2"/>
+<httpSample t="487" it="0" lt="484" ct="0" ts="1705682965296" s="true" lb="-70" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="2453" sby="747" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://blazedemo.com/confirmation.php</java.net.URL>
+</httpSample>
+<sample t="487" it="10310" lt="484" ct="0" ts="1705682954988" s="true" lb="ConfirmFlight" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-2" dt="" by="2453" sby="747" ng="1" na="1"/>
+
+</testResults>
